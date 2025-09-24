@@ -1,6 +1,6 @@
 function balikKata(kata) {
   let hasil = "";
-  // loop dari huruf terakhir ke huruf pertama
+
   for (let i = kata.length - 1; i >= 0; i--) {
     hasil += kata[i];
   }

@@ -1,11 +1,8 @@
 function konversiMenit(menit) {
-  // hitung jam dengan pembagian bulat
   let jam = Math.floor(menit / 60);
 
-  // hitung sisa menit dengan modulus
   let sisaMenit = menit % 60;
 
-  // tambahkan '0' di depan jika menit < 10
   if (sisaMenit < 10) {
     sisaMenit = "0" + sisaMenit;
   }
